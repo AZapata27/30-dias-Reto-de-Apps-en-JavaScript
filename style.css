@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.header{
+
+    padding: 50px;
+}
+
+
+.card{
+
+    margin: 50px;
+    padding: 20px;
+    max-height: 35vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background: radial-gradient(circle at 12.5% 12.5%, #b9ffd5 0, #a5fad4 12.5%, #8df4d4 25%, #70edd4 37.5%, #48e5d5 50%, #00ddd7 62.5%, #00d5db 75%, #00cee1 87.5%, #00c7e7 100%);
+    width: 30%;
+    height: 350px;
+
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+
+
+}
+
+.card> img{
+    border-radius: 25px;
+    max-width: 25vw;
+    height: auto;
+}
+
+.card__title > a{
+
+    color: black;
+    font-size: clamp(.7rem, 5vw , 2rem);
+    text-decoration: none;
+
+}
+
